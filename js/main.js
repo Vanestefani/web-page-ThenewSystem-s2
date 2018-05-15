@@ -1,0 +1,1 @@
+$(document).ready(function(){$('#btn-menu').click(function(){if($('.btn-menu span').attr('class')=='icon-menu'){$('.btn-menu span').removeClass('icon-menu').addClass('icon-cancel').css({'color':'#fff'});$('.full-menu').css({'left':'0'});}else{$('.btn-menu span').removeClass('icon-cancel').addClass('icon-menu').css({'color':'#fff'});$('.full-menu').css({'left':'-100%'});}});});

@@ -1,0 +1,18 @@
+$(document).ready(function(){
+
+	$('#btn-menu').click(function(){
+
+		if( $('.btn-menu span').attr('class') == 'icon-menu' ){
+
+			$('.btn-menu span').removeClass('icon-menu').addClass('icon-cancel').css({'color':'#2B2E4A'});
+			$('.full-menu').css({'left':'0'});
+
+		}else{
+			$('.btn-menu span').removeClass('icon-cancel').addClass('icon-menu').css({'color':'#2B2E4A'});
+					$('.btn-menu span').removeClass('icon-cancel').addClass('icon-menu').css({'z-index:10000000'});
+			$('.full-menu').css({'left':'-100%'});
+		}
+
+	});
+
+});
